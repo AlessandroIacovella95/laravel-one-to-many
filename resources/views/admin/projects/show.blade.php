@@ -15,6 +15,12 @@
             </div>
             <div class="col-4">
                 <p>
+                    <strong>Tipo:</strong><br>
+                    {!! $project->getTypeBadge() !!}
+                </p>
+            </div>
+            <div class="col-4">
+                <p>
                     <strong>Slug:</strong><br>
                     {{ $project->slug }}
                 </p>
